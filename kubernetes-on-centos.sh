@@ -1,3 +1,6 @@
+# Install Kubernetes On CentOS by AsadTh95 
+
+
 # Update packages
 sudo yum update -y
 
@@ -32,3 +35,7 @@ minikube start --driver=docker
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 sudo chmod 700 get_helm.sh
 ./get_helm.sh
+
+
+# Thanks for Contribution
+# AsadTh95
