@@ -20,7 +20,7 @@ sudo usermod -aG docker $USER
 # Install kubectl
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 sudo chmod +x ./kubectl
-sudomv ./kubectl /usr/local/bin/kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
 kubectl version
 
 # Install minikube
