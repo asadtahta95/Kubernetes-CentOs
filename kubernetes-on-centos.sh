@@ -16,6 +16,7 @@ sudo systemctl start docker.service
 sudo systemctl enable docker.service
 # Run docker without root
 sudo usermod -aG docker $USER
+sudo chmod 666 /var/run/docker.sock
 
 # Install kubectl
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
